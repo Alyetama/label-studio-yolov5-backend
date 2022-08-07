@@ -1,0 +1,19 @@
+[
+    {
+        "projects":
+        [
+            1,
+            2
+        ],
+        "weights": "/weights/mymodel.pt",
+        "model_version": "MyModel-v1.0.0"
+    },
+    {
+        "projects":
+        [
+            3
+        ],
+        "weights": "/weights/myothermodel.pt",
+        "model_version": "MyOtherModel-v1.2.0-alpha.6"
+    }
+]
