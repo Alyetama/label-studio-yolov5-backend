@@ -30,6 +30,7 @@ git clone https://github.com/ultralytics/yolov5.git
 
 label-studio-ml init label-studio-yolov5-backend --script app/ml_backend.py
 nohup label-studio-ml start ./label-studio-yolov5-backend &
+python3 api.py
 ```
 
 ## Running on Docker
